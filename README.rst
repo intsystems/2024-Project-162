@@ -24,7 +24,7 @@
 Abstract
 ========
 
-Purus sit amet luctus venenatis lectus magna fringilla. Condimentum id venenatis a condimentum vitae sapien. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Eget egestas purus viverra accumsan in. Nam aliquam sem et tortor. Donec et odio pellentesque diam volutpat commodo. Odio pellentesque diam volutpat commodo sed egestas. Sit amet dictum sit amet justo. Pellentesque sit amet porttitor eget. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Quis varius quam quisque id diam vel quam elementum. Ornare lectus sit amet est placerat in. Vulputate dignissim suspendisse in est ante. Elit sed vulputate mi sit amet mauris. Egestas sed tempus urna et pharetra pharetra. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
+Sampling from intractable high-dimensional density functions is a fundamental task which often appears in many problems in the physical sciences, machine learning, and statistical inference. In this paper, we propose an adaptive sampling method utilizing diffusion models, a popular class of generative models providing state-of-the-art results in many domains. Gradually adding noise to the data via a diffusion process transforms the data distribution into a Gaussian distribution. Samples from this generative model are acquired by simulating an approximation of the reverse process of this diffusion, starting with Gaussian samples. Pairing traditional Markov Chain Monte Carlo (MCMC) sampling techniques with a diffusion model produces better results and uses fewer target evaluations.
 
 Research publications
 ===============================
