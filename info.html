@@ -53,7 +53,6 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">center</span></code></a></li>
 <li class="toctree-l1"><a class="reference internal" href="#abstract">Abstract</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#research-publications">Research publications</a></li>
 <li class="toctree-l1"><a class="reference internal" href="#presentations-at-conferences-on-the-topic-of-research">Presentations at conferences on the topic of research</a></li>
 <li class="toctree-l1"><a class="reference internal" href="#software-modules-developed-as-part-of-the-study">Software modules developed as part of the study</a></li>
 </ul>
@@ -115,13 +114,15 @@
 
 <section id="abstract">
 <h1>Abstract<a class="headerlink" href="#abstract" title="Permalink to this heading"></a></h1>
-<p>Sampling from intractable high-dimensional density functions is a fundamental task which often appears in many problems in the physical sciences, machine learning, and statistical inference. In this paper, we propose an adaptive sampling method utilizing diffusion models, a popular class of generative models providing state-of-the-art results in many domains. Gradually adding noise to the data via a diffusion process transforms the data distribution into a Gaussian distribution. Samples from this generative model are acquired by simulating an approximation of the reverse process of this diffusion, starting with Gaussian samples. Pairing traditional Markov Chain Monte Carlo (MCMC) sampling techniques with a diffusion model produces better results and uses fewer target evaluations.</p>
-</section>
-<section id="research-publications">
-<h1>Research publications<a class="headerlink" href="#research-publications" title="Permalink to this heading"></a></h1>
-<ol class="arabic simple">
-<li></li>
-</ol>
+<p>In this paper, we consider a novel approach to sampling from probability distributions using
+Generative Flow Networks (GFlowNets). GFlowNets are a class of amortized inference
+algorithms designed to address the challenge of generating samples proportional to given
+rewards in a Markov decision process (MDP). In this work, we adapt GFlowNets to the task
+of sampling from complex continuous probability distributions, leveraging their sequential
+decision-making framework to efficiently explore high-dimensional spaces.
+Research publications
+===============================
+1.</p>
 </section>
 <section id="presentations-at-conferences-on-the-topic-of-research">
 <h1>Presentations at conferences on the topic of research<a class="headerlink" href="#presentations-at-conferences-on-the-topic-of-research" title="Permalink to this heading"></a></h1>
