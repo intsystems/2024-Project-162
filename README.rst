@@ -24,8 +24,12 @@
 Abstract
 ========
 
-Sampling from intractable high-dimensional density functions is a fundamental task which often appears in many problems in the physical sciences, machine learning, and statistical inference. In this paper, we propose an adaptive sampling method utilizing diffusion models, a popular class of generative models providing state-of-the-art results in many domains. Gradually adding noise to the data via a diffusion process transforms the data distribution into a Gaussian distribution. Samples from this generative model are acquired by simulating an approximation of the reverse process of this diffusion, starting with Gaussian samples. Pairing traditional Markov Chain Monte Carlo (MCMC) sampling techniques with a diffusion model produces better results and uses fewer target evaluations.
-
+In this paper, we consider a novel approach to sampling from probability distributions using
+Generative Flow Networks (GFlowNets). GFlowNets are a class of amortized inference
+algorithms designed to address the challenge of generating samples proportional to given
+rewards in a Markov decision process (MDP). In this work, we adapt GFlowNets to the task
+of sampling from complex continuous probability distributions, leveraging their sequential
+decision-making framework to efficiently explore high-dimensional spaces.
 Research publications
 ===============================
 1. 
